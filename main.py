@@ -93,8 +93,8 @@ st.markdown("""
 # ==========================================
 st.markdown("""
 <div style="text-align: center; margin-bottom: 30px; margin-top: -30px;">
-    <h1 style="color: #5C7CFA; font-weight: 700; margin-bottom: 0;">Yuan Ganteng Bikin Becek Kalkulator BMI</h1>
-    <p style="color: #e0e0e0; font-weight: 500;">Hitung Indeks Massa Tubuh Anda dengan mudah.</p>
+    <h1 style="color: #5C7CFA; font-weight: 700; margin-bottom: 0;">Kalkulator BMI</h1>
+    <p style="color: #e0e0e0; font-weight: 500;">Count Your Body Mass Index</p>
 </div>
 """, unsafe_allow_html=True)
 
