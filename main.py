@@ -7,7 +7,8 @@ from google import genai
 # ==========================================
 # KONFIGURASI API GEMINI
 # ==========================================
-API_KEY = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])  
+API_KEY = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
+client = genai.Client(api_key=API_KEY)
 # Mengatur konfigurasi halaman
 st.set_page_config(page_title="Kalkulator BMI", page_icon="⚖️", layout="centered")
 
