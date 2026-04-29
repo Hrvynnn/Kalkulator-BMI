@@ -1,0 +1,48 @@
+{
+    "underweight": {
+        "makanan": {
+        "Karbohidrat Kompleks": ["Nasi Merah", "Oat", "Ubi", "Roti Gandum"],
+        "Protein Hewani": ["Telur", "Ayam", "Daging Sapi", "Ikan Salmon", "Tuna"],
+        "Protein Nabati": ["Tahu", "Tempe", "Edamame", "Kacang Polong"],
+        "Lemak": ["Alpukat", "Kacang Almond", "Minyak Zaitun", "Biji Chia"],
+        "Produk Susu": ["Susu Fullcream", "Yoghurt Greek", "Keju"],
+        "Buah Padat Kalori": ["Pisang", "Mangga", "Kurma"]
+        },
+        "tips": [
+        "Tambahkan nut butter (selai kacang) ke smoothie atau roti",
+        "Hindari minum berlebihan sebelum makan karena menekan nafsu makan ",
+        "Kombinasikan dengan latihan beban untuk menambah massa otot, bukan sekadar lemak"
+        ]
+    },
+    "normal": {
+        "makanan": {
+        "Makanan Pokok": ["Nasi", "Jagung", "Ubi", "Kentang"],
+        "Sayuran": ["Bayam", "Brokoli", "Wortel", "Tomat"],
+        "Buah Segar": ["Jeruk", "Apel", "Pepaya", "Semangka", "Pir"],
+        "Protein": ["Ikan", "Ayam Tanpa Kulit", "Tahu", "Tempe", "Telur"],
+        "Lemak Baik": ["Minyak Zaitun", "Alpukat"]
+        },
+        "tips": [
+        "Terapkan porsi Isi Piringku: 1/2 piring Sayur + Buah, 1/4 piring Makanan Pokok, 1/4 piring Lauk ",
+        "Batasi gula tambahan < 50 gram/hari ",
+        "Batasi garam < 5 gram/hari",
+        "Minum air putih minimal 8 gelas/hari "
+        ]
+    },
+    "obese": {
+        "makanan": {
+        "Sayuran Rendah Kalori": ["Mentimun", "Selada", "Kubis", "Seledri"],
+        "Protein Tinggi": ["Putih Telur", "Dada Ayam", "Ikan Lele", "Ikan Kakap", "Tahu"],
+        "Karbohidrat Kompleks": ["Oat", "Beras Merah", "Ubi", "Gandum"],
+        "Buah Rendah Gula": ["Apel", "Stroberi", "Jeruk Bali", "Pir"],
+        "Lemak Baik": ["Salmon", "Biji Rami", "Kacang Kenari"]
+        },
+        "tips": [
+        "Hindari minuman manis, fast food, gorengan berlebihan, dan alkohol",
+        "Terapkan mindful eating: makan perlahan, kunyah 20-30 kali ",
+        "Gunakan piring lebih kecil untuk mengontrol porsi secara psikologis ",
+        "Hindari makan malam > 2 jam sebelum tidur",
+        "Prioritaskan protein di setiap makan untuk mempertahankan otot"
+        ]
+    }
+}
