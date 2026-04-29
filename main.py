@@ -7,7 +7,7 @@ from google import genai
 # ==========================================
 # KONFIGURASI API GEMINI
 # ==========================================
-client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
+
 # Mengatur konfigurasi halaman
 st.set_page_config(page_title="Kalkulator BMI", page_icon="⚖️", layout="centered")
 
@@ -25,7 +25,7 @@ def dapatkan_evaluasi_ai(nama, bmi, kategori, umur, gender):
     """
     try:
         # FIX #1: Inisialisasi client di dalam fungsi supaya cache aman
-        _client = genai.Client(api_key=API_KEY)
+        client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
         response = _client.models.generate_content(model='gemini-flash-latest', contents=prompt)
         return response.text
     except Exception as e:
