@@ -26,7 +26,7 @@ def dapatkan_evaluasi_ai(nama, bmi, kategori, umur, gender):
     try:
         # FIX #1: Inisialisasi client di dalam fungsi supaya cache aman
         client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
-        response = _client.models.generate_content(model='gemini-flash-latest', contents=prompt)
+        response = client.models.generate_content(model='gemini-flash-latest', contents=prompt)
         return response.text
     except Exception as e:
         return f"Gagal mengambil data evaluasi AI saat ini. (Error: {e})"
