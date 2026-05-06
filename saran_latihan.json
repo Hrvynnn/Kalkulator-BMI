@@ -1,0 +1,425 @@
+{
+    "panduan_latihan": [
+        {
+            "id": "hipertrofi",
+            "kategori": "Menambah Massa Otot (Hipertrofi)",
+            "deskripsi": "Menambah massa otot membutuhkan kombinasi antara latihan beban (resistance training) dengan intensitas sedang hingga tinggi, asupan protein yang cukup, dan waktu istirahat yang memadai. Prinsip utama dalam program ini adalah memberikan beban berlebih secara progresif (progressive overload) sehingga otot mendapatkan stimulus untuk tumbuh.",
+            "prinsip_latihan": [
+                "Volume: 3-5 set per latihan, 8-12 repetisi per set.",
+                "Intensitas: 65-85% dari 1 Repetition Maximum (1RM).",
+                "Istirahat antar set: 60-90 detik.",
+                "Frekuensi: 3-5 hari per minggu dengan pembagian kelompok otot.",
+                "Tempo: Turunkan beban perlahan (2-3 detik), naikkan secara eksplosif (1 detik)."
+            ],
+            "daftar_latihan": [
+                {
+                    "kelompok_otot": "Dada (Chest)",
+                    "gerakan": [
+                        {
+                            "nama": "Bench Press",
+                            "otot_target": "Pektoralis Mayor, Triceps, Deltoid Anterior",
+                            "set_rep": "4x8-10",
+                            "cara_melakukan": "Berbaring di bangku datar, pegang barbell selebar bahu, turunkan ke dada lalu dorong ke atas dengan tenaga penuh. Pastikan punggung sedikit melengkung alami dan kaki menapak lantai."
+                        },
+                        {
+                            "nama": "Push-Up",
+                            "otot_target": "Pektoralis Mayor, Triceps, Core",
+                            "set_rep": "3x12-15",
+                            "cara_melakukan": "Posisi plank dengan tangan selebar bahu. Turunkan tubuh hingga dada hampir menyentuh lantai, lalu dorong kembali ke atas. Pastikan tubuh lurus dari kepala ke tumit."
+                        },
+                        {
+                            "nama": "Incline Dumbbell Press",
+                            "otot_target": "Pektoralis Mayor Atas, Deltoid",
+                            "set_rep": "3x10-12",
+                            "cara_melakukan": "Bangku dimiringkan 30-45 derajat. Pegang dumbbell di kedua tangan, turunkan ke sisi dada lalu tekan ke atas. Fokuskan tekanan pada bagian atas dada."
+                        },
+                        {
+                            "nama": "Cable Flye",
+                            "otot_target": "Pektoralis Mayor, Serratus Anterior",
+                            "set_rep": "3x12-15",
+                            "cara_melakukan": "Berdiri di tengah mesin kabel, tarik kedua kabel dari samping ke depan dada dengan gerakan memeluk. Pertahankan siku sedikit menekuk sepanjang gerakan."
+                        }
+                    ]
+                },
+                {
+                    "kelompok_otot": "Punggung (Back)",
+                    "gerakan": [
+                        {
+                            "nama": "Pull-Up / Chin-Up",
+                            "otot_target": "Latissimus Dorsi, Biceps, Rhomboids",
+                            "set_rep": "4x6-10",
+                            "cara_melakukan": "Gantung di palang dengan tangan selebar bahu (atau lebih lebar). Tarik tubuh ke atas hingga dagu melewati palang, lalu turunkan perlahan. Hindari mengayun tubuh."
+                        },
+                        {
+                            "nama": "Barbell Row (Bent Over)",
+                            "otot_target": "Latissimus Dorsi, Rhomboids, Biceps",
+                            "set_rep": "4x8-10",
+                            "cara_melakukan": "Condongkan badan ke depan 45 derajat, pegang barbell. Tarik bar ke arah perut bawah sambil menjaga punggung tetap lurus. Rapatkan tulang belikat di puncak gerakan."
+                        },
+                        {
+                            "nama": "Lat Pulldown",
+                            "otot_target": "Latissimus Dorsi, Teres Major",
+                            "set_rep": "3x10-12",
+                            "cara_melakukan": "Duduk di mesin lat pulldown, pegang palang lebar. Tarik palang ke bawah menuju dada atas sambil sedikit condong ke belakang. Kontrol saat palang naik kembali."
+                        },
+                        {
+                            "nama": "Seated Cable Row",
+                            "otot_target": "Rhomboids, Trapezius, Biceps",
+                            "set_rep": "3x12",
+                            "cara_melakukan": "Duduk tegak, kaki menekuk di penyangga. Tarik handle ke arah perut, rapatkan tulang belikat, tahan 1 detik lalu lepaskan perlahan."
+                        }
+                    ]
+                },
+                {
+                    "kelompok_otot": "Kaki (Legs)",
+                    "gerakan": [
+                        {
+                            "nama": "Squat (Barbell Back Squat)",
+                            "otot_target": "Quadriceps, Glutes, Hamstrings, Core",
+                            "set_rep": "5x5-8",
+                            "cara_melakukan": "Letakkan barbell di punggung atas (trapezius). Turunkan tubuh seolah duduk di kursi sambil menjaga dada tegak dan lutut tidak melewati ujung kaki. Naik kembali ke posisi berdiri."
+                        },
+                        {
+                            "nama": "Leg Press",
+                            "otot_target": "Quadriceps, Glutes, Hamstrings",
+                            "set_rep": "4x10-12",
+                            "cara_melakukan": "Duduk di mesin leg press, dorong platform ke atas hingga lutut hampir lurus (tidak mengunci). Turunkan perlahan hingga sudut 90 derajat."
+                        },
+                        {
+                            "nama": "Romanian Deadlift",
+                            "otot_target": "Hamstrings, Glutes, Erector Spinae",
+                            "set_rep": "3x10-12",
+                            "cara_melakukan": "Berdiri dengan barbell di tangan. Condongkan badan ke depan dengan pinggul bergerak ke belakang, biarkan bar meluncur di depan paha hingga terasa tarikan di hamstring. Kembali tegak."
+                        },
+                        {
+                            "nama": "Calf Raise",
+                            "otot_target": "Gastrocnemius, Soleus",
+                            "set_rep": "4x15-20",
+                            "cara_melakukan": "Berdiri di tepi tangga atau platform. Naik ke ujung jari kaki setinggi mungkin, tahan 1 detik, lalu turunkan hingga tumit sedikit di bawah level platform."
+                        }
+                    ]
+                },
+                {
+                    "kelompok_otot": "Bahu dan Lengan",
+                    "gerakan": [
+                        {
+                            "nama": "Overhead Press (OHP)",
+                            "otot_target": "Deltoid, Triceps, Trapezius",
+                            "set_rep": "4x8-10",
+                            "cara_melakukan": "Pegang barbell selebar bahu di depan dagu. Dorong ke atas hingga lengan lurus di atas kepala, lalu turunkan kembali secara terkontrol. Kencangkan core sepanjang gerakan."
+                        },
+                        {
+                            "nama": "Barbell Bicep Curl",
+                            "otot_target": "Biceps Brachii, Brachialis",
+                            "set_rep": "3x10-12",
+                            "cara_melakukan": "Berdiri tegak, pegang barbell dengan telapak menghadap ke atas. Tekuk siku untuk mengangkat bar ke atas, tahan sebentar, lalu turunkan perlahan. Hindari mengayun tubuh."
+                        },
+                        {
+                            "nama": "Tricep Dips",
+                            "otot_target": "Triceps, Deltoid Anterior, Chest",
+                            "set_rep": "3x10-12",
+                            "cara_melakukan": "Gunakan bangku atau parallel bar. Turunkan tubuh dengan menekuk siku hingga 90 derajat, lalu dorong kembali ke atas. Condongkan badan ke depan untuk fokus pada tricep."
+                        },
+                        {
+                            "nama": "Lateral Raise",
+                            "otot_target": "Deltoid Medial",
+                            "set_rep": "3x12-15",
+                            "cara_melakukan": "Berdiri dengan dumbbell di kedua tangan. Angkat tangan ke samping hingga setinggi bahu dengan siku sedikit menekuk. Turunkan perlahan dengan kontrol."
+                        }
+                    ]
+                }
+            ],
+            "jadwal_mingguan": [
+                {
+                    "hari": "Senin",
+                    "fokus": "Dada + Triceps",
+                    "latihan": "Bench Press, Incline DB Press, Push-Up, Cable Flye, Tricep Dips"
+                },
+                {
+                    "hari": "Selasa",
+                    "fokus": "Punggung + Biceps",
+                    "latihan": "Pull-Up, Barbell Row, Lat Pulldown, Seated Cable Row, Bicep Curl"
+                },
+                {
+                    "hari": "Rabu",
+                    "fokus": "ISTIRAHAT AKTIF",
+                    "latihan": "Jalan kaki ringan, stretching, atau yoga 30 menit"
+                },
+                {
+                    "hari": "Kamis",
+                    "fokus": "Kaki (Legs)",
+                    "latihan": "Squat, Leg Press, Romanian Deadlift, Calf Raise"
+                },
+                {
+                    "hari": "Jumat",
+                    "fokus": "Bahu + Core",
+                    "latihan": "OHP, Lateral Raise, Face Pull, Plank, Ab Crunch"
+                },
+                {
+                    "hari": "Sabtu",
+                    "fokus": "Full Body (Ringan)",
+                    "latihan": "Gerakan compound ringan untuk recovery aktif"
+                },
+                {
+                    "hari": "Minggu",
+                    "fokus": "ISTIRAHAT PENUH",
+                    "latihan": "Tidur cukup, konsumsi protein, hidrasi"
+                }
+            ]
+        },
+        {
+            "id": "weight_maintenance",
+            "kategori": "Menjaga Berat Badan (Weight Maintenance)",
+            "deskripsi": "Menjaga berat badan ideal memerlukan kombinasi latihan aerobik dan latihan kekuatan (resistance training) agar komposisi tubuh tetap seimbang. Prinsipnya adalah keseimbangan kalori masuk dan kalori keluar (energy balance), serta menjaga massa otot agar metabolisme basal tetap tinggi.",
+            "prinsip_latihan": [
+                "Gabungkan latihan kardio sedang dengan latihan beban ringan-sedang.",
+                "Volume: 2-3 set, 12-15 repetisi per gerakan.",
+                "Intensitas kardio: 55-70% detak jantung maksimal (zona aerobik).",
+                "Frekuensi: 4-5 hari per minggu, bergantian kardio dan resistance.",
+                "Durasi sesi: 45-60 menit per latihan."
+            ],
+            "daftar_latihan": [
+                {
+                    "jenis": "Latihan Kardio Steady State",
+                    "gerakan": [
+                        {
+                            "nama": "Jogging / Lari Santai",
+                            "durasi": "30-45 menit",
+                            "kalori_terbakar": "250-400 kkal",
+                            "cara_melakukan": "Berlari dengan kecepatan sedang (7-9 km/jam) sehingga masih bisa berbicara tapi sedikit terengah. Perhatikan postur tubuh tegak, ayun tangan natural, dan pendaratan ringan di midfoot."
+                        },
+                        {
+                            "nama": "Bersepeda (Statis atau Outdoor)",
+                            "durasi": "30-45 menit",
+                            "kalori_terbakar": "200-350 kkal",
+                            "cara_melakukan": "Kayuh dengan kecepatan konstan, sesuaikan resistansi sehingga detak jantung berada di zona aerobik (55-70% max HR). Jaga punggung tegak dan lutut tidak terlalu menekuk."
+                        },
+                        {
+                            "nama": "Berenang Gaya Bebas",
+                            "durasi": "30 menit/1000 m",
+                            "kalori_terbakar": "250-400 kkal",
+                            "cara_melakukan": "Renang dengan teknik freestyle yang benar. Fokus pada rotasi badan, tarikan tangan penuh, dan tendangan kaki yang konsisten. Istirahat setiap 2-4 lap sesuai kemampuan."
+                        },
+                        {
+                            "nama": "Eliptical Trainer",
+                            "durasi": "30-40 menit",
+                            "kalori_terbakar": "200-300 kkal",
+                            "cara_melakukan": "Injak pedal dan kayuh dengan gerakan elips yang mulus. Pegang handle sambil menggerakkan tangan searah kaki. Atur resistansi untuk menjaga detak jantung di zona target."
+                        }
+                    ]
+                },
+                {
+                    "jenis": "Latihan Kekuatan Ringan untuk Mempertahankan Massa Otot",
+                    "gerakan": [
+                        {
+                            "nama": "Bodyweight Squat",
+                            "set_rep": "3x15-20",
+                            "cara_melakukan": "Berdiri dengan kaki selebar bahu. Tekuk lutut dan turunkan pinggul seolah duduk di kursi hingga paha sejajar lantai. Kembali berdiri sambil mengaktifkan glutes. Tidak menggunakan beban tambahan."
+                        },
+                        {
+                            "nama": "Dumbbell Lunges",
+                            "set_rep": "3x12 (tiap kaki)",
+                            "cara_melakukan": "Pegang dumbbell ringan di kedua tangan. Langkah satu kaki ke depan, tekuk kedua lutut hingga lutut belakang hampir menyentuh lantai. Dorong kembali ke posisi awal, ganti kaki."
+                        },
+                        {
+                            "nama": "Plank Variation",
+                            "set_rep": "3x30-60 detik",
+                            "cara_melakukan": "Posisi forearm plank: siku di bawah bahu, tubuh lurus dari kepala ke tumit. Kencangkan perut dan glutes. Variasikan dengan side plank untuk melatih oblique. Jangan biarkan pinggul turun."
+                        },
+                        {
+                            "nama": "Dumbbell Shoulder Press",
+                            "set_rep": "3x12-15",
+                            "cara_melakukan": "Duduk atau berdiri, pegang dumbbell ringan setinggi bahu. Dorong ke atas hingga lengan hampir lurus, lalu turunkan ke posisi awal. Gunakan beban yang memungkinkan 15 repetisi dengan teknik baik."
+                        },
+                        {
+                            "nama": "Resistance Band Row",
+                            "set_rep": "3x15",
+                            "cara_melakukan": "Ikat band elastis di titik yang stabil. Genggam dengan kedua tangan, tarik ke arah pinggang sambil merapat tulang belikat. Tahan 1 detik, lalu lepaskan perlahan. Cocok sebagai pengganti mesin."
+                        }
+                    ]
+                }
+            ],
+            "jadwal_mingguan": [
+                {
+                    "hari": "Senin",
+                    "fokus": "Resistance Training",
+                    "latihan": "Upper Body Ringan: DB Shoulder Press, Push-Up, Dumbbell Row (3x12-15)"
+                },
+                {
+                    "hari": "Selasa",
+                    "fokus": "Kardio Aerobik",
+                    "latihan": "Jogging 35 menit atau Bersepeda 40 menit di zona aerobik"
+                },
+                {
+                    "hari": "Rabu",
+                    "fokus": "Resistance Training",
+                    "latihan": "Lower Body: Bodyweight Squat, Lunges, Calf Raise, Plank (3x15)"
+                },
+                {
+                    "hari": "Kamis",
+                    "fokus": "Kardio + Fleksibilitas",
+                    "latihan": "Berenang 30 menit atau Eliptical 35 menit + Stretching 15 menit"
+                },
+                {
+                    "hari": "Jumat",
+                    "fokus": "Full Body Ringan",
+                    "latihan": "Sirkuit: Squat + Push-Up + Row + Plank (2 putaran)"
+                },
+                {
+                    "hari": "Sabtu",
+                    "fokus": "Aktivitas Aktif",
+                    "latihan": "Hiking ringan, bermain olahraga rekreasi, atau yoga"
+                },
+                {
+                    "hari": "Minggu",
+                    "fokus": "Istirahat Aktif",
+                    "latihan": "Jalan kaki 20-30 menit, stretching ringan, tidur cukup"
+                }
+            ]
+        },
+        {
+            "id": "fat_loss",
+            "kategori": "Menurunkan Berat Badan (Fat Loss)",
+            "deskripsi": "Penurunan berat badan yang sehat terjadi ketika tubuh berada dalam kondisi defisit kalori. Program ini menggabungkan latihan kardio intensitas tinggi (HIIT) dan latihan beban untuk menjaga massa otot agar metabolisme tidak menurun drastis. Target sehat adalah 0,5 hingga 1 kg per minggu.",
+            "prinsip_latihan": [
+                "Utamakan HIIT (High Intensity Interval Training) untuk membakar kalori lebih efisien.",
+                "Tetap pertahankan latihan beban minimal 2x per minggu untuk menjaga otot.",
+                "Frekuensi: 5-6 hari per minggu dengan variasi intensitas (hard/easy day).",
+                "Tambahkan NEAT (Non-Exercise Activity Thermogenesis): perbanyak jalan kaki, naik tangga.",
+                "Defisit kalori dari makanan: 300-500 kkal/hari dari kebutuhan kalori harian."
+            ],
+            "daftar_latihan": [
+                {
+                    "jenis": "Latihan HIIT (High Intensity Interval Training)",
+                    "catatan": "Dilakukan dengan pola kerja-istirahat bergantian (contoh: 30 detik kerja, 30 detik istirahat, total 15-25 menit).",
+                    "gerakan": [
+                        {
+                            "nama": "Burpees",
+                            "interval": "30 detik kerja / 30 detik istirahat",
+                            "cara_melakukan": "Dari posisi berdiri, jongkok dan letakkan tangan di lantai, lompat kaki ke belakang ke posisi plank, lakukan push-up, lompat kaki kembali ke tangan, lalu melompat ke atas dengan tangan di atas kepala."
+                        },
+                        {
+                            "nama": "Jump Squat",
+                            "interval": "30 detik kerja / 30 detik istirahat",
+                            "cara_melakukan": "Lakukan squat biasa, namun saat naik lakukan lompatan eksplosif. Saat mendarat, langsung masuk ke squat berikutnya dengan lutut sedikit menekuk untuk meredam benturan. Jaga punggung tetap tegak."
+                        },
+                        {
+                            "nama": "Mountain Climbers",
+                            "interval": "40 detik kerja / 20 detik istirahat",
+                            "cara_melakukan": "Posisi plank tinggi (tangan lurus). Tarik lutut kanan ke arah dada lalu kembalikan, ganti dengan lutut kiri. Lakukan bergantian secepat mungkin sambil menjaga pinggul tetap sejajar tanah."
+                        },
+                        {
+                            "nama": "Box Jump",
+                            "interval": "30 detik kerja / 45 detik istirahat",
+                            "cara_melakukan": "Berdiri di depan kotak atau platform. Tekuk lutut sedikit lalu lompat ke atas kotak dengan mendarat di kedua kaki secara bersamaan (soft landing). Turun dengan hati-hati, ulangi."
+                        },
+                        {
+                            "nama": "High Knees",
+                            "interval": "40 detik kerja / 20 detik istirahat",
+                            "cara_melakukan": "Berlari di tempat dengan mengangkat lutut setinggi pinggang secara bergantian. Ayunkan tangan seperti sedang berlari sungguhan untuk meningkatkan intensitas. Jaga postur tegak."
+                        },
+                        {
+                            "nama": "Battle Rope Waves",
+                            "interval": "30 detik kerja / 30 detik istirahat",
+                            "cara_melakukan": "Pegang kedua ujung tali battle rope, tekuk lutut sedikit (athletic stance). Buat gelombang bergantian atau bersamaan secepat dan setinggi mungkin."
+                        }
+                    ]
+                },
+                {
+                    "jenis": "Latihan Kardio LISS (Low Intensity Steady State)",
+                    "catatan": "Cocok di hari recovery atau untuk pemula. Dilakukan pada 50-65% detak jantung maksimal.",
+                    "gerakan": [
+                        {
+                            "nama": "Jalan Cepat (Brisk Walking)",
+                            "durasi": "45-60 menit",
+                            "cara_melakukan": "Berjalan dengan langkah yang lebih cepat dari normal (5-7 km/jam). Ayunkan tangan aktif, postur tegak, dan bernapas dengan ritme teratur. Bisa di treadmill incline 5-10%."
+                        },
+                        {
+                            "nama": "Bersepeda Santai",
+                            "durasi": "45-60 menit",
+                            "cara_melakukan": "Kayuh dengan kecepatan sedang di luar ruangan atau sepeda statis dengan resistansi rendah-sedang. Pertahankan percakapan bisa dilakukan (talking test)."
+                        },
+                        {
+                            "nama": "Hiking Ringan",
+                            "durasi": "60-90 menit",
+                            "cara_melakukan": "Berjalan di jalur alam dengan medan sedikit menanjak. Gunakan sepatu yang tepat."
+                        }
+                    ]
+                },
+                {
+                    "jenis": "Latihan Kekuatan untuk Mempertahankan Otot",
+                    "gerakan": [
+                        {
+                            "nama": "Deadlift (Beban Sedang)",
+                            "set_rep": "3x8-10",
+                            "cara_melakukan": "Berdiri dengan kaki selebar pinggul, barbell di depan. Tekuk pinggul ke belakang (bukan menekuk punggung), genggam bar, dan tarik ke atas dengan mendorong lantai melalui kaki. Punggung tetap lurus."
+                        },
+                        {
+                            "nama": "Goblet Squat",
+                            "set_rep": "3x12-15",
+                            "cara_melakukan": "Pegang kettlebell atau dumbbell di depan dada dengan kedua tangan. Lakukan squat dalam sambil menjaga siku di dalam lutut. Dorong lantai untuk naik."
+                        },
+                        {
+                            "nama": "Push-Up Variasi",
+                            "set_rep": "3x10-15",
+                            "cara_melakukan": "Variasikan push-up dengan: push-up biasa, wide-grip push-up, atau push-up dengan tangan di bangku. Ini menjaga otot dada, bahu, dan tricep."
+                        },
+                        {
+                            "nama": "TRX Row / Inverted Row",
+                            "set_rep": "3x10-12",
+                            "cara_melakukan": "Tidur di bawah palang rendah atau gunakan TRX. Pegang palang dengan tubuh lurus, tarik dada ke arah palang. Semakin berbaring horizontal, semakin berat."
+                        },
+                        {
+                            "nama": "Kettlebell Swing",
+                            "set_rep": "4x15-20",
+                            "cara_melakukan": "Berdiri kaki selebar bahu, pegang kettlebell dengan kedua tangan. Dorong pinggul ke belakang (hip hinge), lalu dorongkan pinggul ke depan secara eksplosif sehingga kettlebell berayun ke depan setinggi bahu."
+                        }
+                    ]
+                }
+            ],
+            "jadwal_mingguan": [
+                {
+                    "hari": "Senin",
+                    "fokus": "HIIT + Upper Body",
+                    "latihan": "HIIT 20 menit (Burpees, Mountain Climbers, High Knees) + Push-Up, TRX Row, DB Press (3x10-12)"
+                },
+                {
+                    "hari": "Selasa",
+                    "fokus": "LISS + Core",
+                    "latihan": "Jalan Cepat / Bersepeda 45 menit + Plank, Dead Bug, Russian Twist (3x15)"
+                },
+                {
+                    "hari": "Rabu",
+                    "fokus": "HIIT + Lower Body",
+                    "latihan": "Jump Squat, Box Jump, Kettlebell Swing 20 menit + Goblet Squat, Deadlift (3x10)"
+                },
+                {
+                    "hari": "Kamis",
+                    "fokus": "LISS Ringan / Aktif",
+                    "latihan": "Jalan santai 30 menit, peregangan aktif, foam rolling untuk recovery"
+                },
+                {
+                    "hari": "Jumat",
+                    "fokus": "HIIT Full Body",
+                    "latihan": "Sirkuit: Burpees + Jump Squat + Mountain Climbers + Battle Rope (4 putaran)"
+                },
+                {
+                    "hari": "Sabtu",
+                    "fokus": "Strength + Kardio",
+                    "latihan": "Deadlift, Goblet Squat, Row, Push-Up + Bersepeda 20 menit"
+                },
+                {
+                    "hari": "Minggu",
+                    "fokus": "Istirahat Penuh",
+                    "latihan": "Tidur cukup (7-9 jam), nutrisi baik, hidrasi, dan relaksasi"
+                }
+            ]
+        }
+    ],
+    "tips_umum": {
+        "pemanasan": "Lakukan pemanasan 5-10 menit sebelum setiap sesi latihan. Pemanasan meningkatkan aliran darah ke otot dan mengurangi risiko cedera.",
+        "pendinginan": "Akhiri setiap sesi dengan pendinginan 5-10 menit berupa stretching statis pada kelompok otot yang baru dilatih (tahan 20-30 detik). Ini membantu membuang sisa asam laktat dan mengurangi nyeri otot (DOMS).",
+        "istirahat_dan_recovery": "Otot tumbuh dan pulih saat istirahat. Pastikan tidur 7-9 jam per malam dan jangan melatih kelompok otot yang sama dua hari berturut-turut tanpa jeda. Overtraining justru menghambat kemajuan.",
+        "hidrasi": "Minum air putih minimal 2-3 liter per hari, dan tambahan 500-750 ml untuk setiap jam latihan. Dehidrasi ringan (2% dari berat badan) sudah dapat menurunkan performa secara signifikan."
+    }
+}

@@ -37,7 +37,8 @@ def dapatkan_evaluasi_ai(nama, bmi, kategori, umur, gender):
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-    html, body, [class*="css"] { font-family: 'Poppins', sans-serif !important; }
+    html, body, h1, h2, h3, p, span, div { font-family: 'Poppins', sans-serif !important; }
+    span[data-testid="stIconMaterial"], .material-icons { font-family: 'Material Symbols Rounded', sans-serif !important; }
     .stApp { background-color: #292929; }
     label, label p, label div { color: #5C7CFA !important; font-weight: 600 !important; }
     div[data-baseweb="input"] > div, div[data-baseweb="select"] > div {
@@ -58,7 +59,7 @@ st.markdown("""
         box-shadow: 0 8px 20px rgba(0,0,0,0.08); margin-top: 25px; margin-bottom: 20px;
     }
     .stAlert { border-radius: 12px !important; border: 1px solid rgba(0,0,0,0.1) !important; }
-    header {visibility: hidden;}
+    
 </style>
 """, unsafe_allow_html=True)
 
@@ -105,7 +106,7 @@ st.markdown("""
 # ==========================================
 # INPUT PENGGUNA (LIVE DATA)
 # ==========================================
-nama_input = st.text_input("Nama (Opsional, untuk laporan)", placeholder="Masukkan nama Anda")
+nama_input = st.text_input("Nama (Opsional, untuk analisis)", value="yanto", placeholder="Masukkan nama Anda")
 
 col_gender, col_umur = st.columns(2)
 with col_gender:
@@ -142,8 +143,16 @@ if st.button("Hitung Sekarang", type="primary"):
         kategori_teks = "Kelebihan berat badan (Overweight)"
         kategori_json = "overweight"
         bar_color = "#EAB308"
+    elif 30.0 <= bmi <= 34.9:
+        kategori_teks = "Kelebihan berat badan (Obesitas tingkat 1)"
+        kategori_json = "obese"
+        bar_color = "#EF4444"
+    elif 35.0 <= bmi <= 39.9:
+        kategori_teks = "Kelebihan berat badan (Obesitas tingkat 2)"
+        kategori_json = "obese"
+        bar_color = "#EF4444"
     else:
-        kategori_teks = "Obesitas (Obese)"
+        kategori_teks = "Kelebihan berat badan (Obesitas tingkat 3)"
         kategori_json = "obese"   # FIX #2: Pisahkan key obese dari overweight
         bar_color = "#EF4444"
 
