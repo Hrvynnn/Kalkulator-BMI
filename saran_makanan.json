@@ -29,6 +29,22 @@
         "Minum air putih minimal 8 gelas/hari "
         ]
     },
+    "overweight": {
+        "makanan": {
+        "Sayuran Rendah Kalori": ["Mentimun", "Selada", "Kubis", "Seledri"],
+        "Protein Tinggi": ["Putih Telur", "Dada Ayam", "Ikan Lele", "Ikan Kakap", "Tahu"],
+        "Karbohidrat Kompleks": ["Oat", "Beras Merah", "Ubi", "Gandum"],
+        "Buah Rendah Gula": ["Apel", "Stroberi", "Jeruk Bali", "Pir"],
+        "Lemak Baik": ["Salmon", "Biji Rami", "Kacang Kenari"]
+        },
+        "tips": [
+        "Hindari minuman manis, fast food, gorengan berlebihan, dan alkohol",
+        "Terapkan mindful eating: makan perlahan, kunyah 20-30 kali ",
+        "Gunakan piring lebih kecil untuk mengontrol porsi secara psikologis ",
+        "Hindari makan malam > 2 jam sebelum tidur",
+        "Prioritaskan protein di setiap makan untuk mempertahankan otot"
+        ]
+    },
     "obese": {
         "makanan": {
         "Sayuran Rendah Kalori": ["Mentimun", "Selada", "Kubis", "Seledri"],
@@ -44,5 +60,4 @@
         "Hindari makan malam > 2 jam sebelum tidur",
         "Prioritaskan protein di setiap makan untuk mempertahankan otot"
         ]
-    }
 }
