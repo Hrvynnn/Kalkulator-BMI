@@ -106,7 +106,7 @@ st.markdown("""
 # ==========================================
 # INPUT PENGGUNA (LIVE DATA)
 # ==========================================
-nama_input = st.text_input("Nama (Opsional, untuk analisis)", value="yanto", placeholder="Masukkan nama Anda")
+nama_input = st.text_input("Nama (Opsional, untuk analisis)", placeholder="Masukkan nama Anda")
 
 col_gender, col_umur = st.columns(2)
 with col_gender:
