@@ -141,7 +141,7 @@ if st.button("Hitung Sekarang", type="primary"):
         bar_color = "#22C55E"
     elif 25.0 <= bmi <= 29.9:
         kategori_teks = "Kelebihan berat badan (Overweight)"
-        kategori_json = "overweight"
+        kategori_json = "obese"
         bar_color = "#EAB308"
     elif 30.0 <= bmi <= 34.9:
         kategori_teks = "Kelebihan berat badan (Obesitas tingkat 1)"
